@@ -257,16 +257,20 @@ text-align: left;
   width: calc(100% - ($button-spacing * 2));
 }
 
+#total{
+  padding-left: 40px;
+}
+
 /* fin du gros bordel */
 
 /* Alors tout ça, faut pas chercher à comprendre c'est justes les fleches pour le caroussel */
 
-.glyphicon-chevron-right{
-	color: black;
+.glyphicon-circle-arrow-right{
+  color: black;
 }
 
-.glyphicon-chevron-left{
-	color:black;
+.glyphicon-circle-arrow-left{
+  color:black;
 }
 
 .carousel[data-shift="1"] .carousel-inner > .item {
@@ -275,8 +279,8 @@ text-align: left;
 }
 
 .carousel .carousel-inner > .item.row{ 
-	margin: 0; 
-	padding-left: 10px;
+  margin: 0; 
+  padding-left: 10px;
 }
 
 .carousel .carousel-control {
@@ -311,9 +315,9 @@ text-align: left;
   width: 100%;
 }
 .carousel .carousel-control.left{ 
-  left: -40px; top: 30px; 
+  left: -40px; top: 50px; 
 }
 
 .carousel .carousel-control.right{ 
-  right: -40px; top: 30px; 
+  right: -40px; top: 50px; 
 }
