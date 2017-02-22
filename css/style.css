@@ -96,6 +96,9 @@ width: 90%;
 #focusLI a{						/* Lien de la page active */
 	color: white;
 }
+#carrousel-id{
+		width: 100%;
+	}
 
 #phraseAccroche{ /* ne pas afficher en version mobile la phrase d'accroche */
 	display: none;
@@ -162,6 +165,9 @@ width: 90%;
 	}
 	#fb-root{
 		display: block;
+	}
+	#carrousel-id{
+		width: 100%;
 	}
 	
 }
