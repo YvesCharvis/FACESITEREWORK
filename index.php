@@ -1,9 +1,7 @@
 <?php include 'header.html' ?>
 
 	<!--///////////////////////////////////Phrase Accorche + DIV FACEBOOK ? \\\\\\\\\\\\\\\-->
-<div class="col-md-offset-5 col-md-5 col-lg-offset-5">
-	<img id="phraseAccroche" class="dis-phrase" src="img/phrase.png" width="87%">
-</div>
+
 	<!--///////////////////////////////////CONTENEUR\\\\\\\\\\\\\\\\\\\\\\-->
 <div id="containerUne col-md-10 col-md-offset-1">
 	<div id="conteneur" class="col-xs-12 col-md-9"> 		<!--Conteneur detier la Une, Menu press et social -->
@@ -29,6 +27,7 @@
 			<iframe class="pagefb" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffaceterritoirebourbonnais%2F&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="400" height="800" style="border:none;overflow:hidden" scrolling="no" frameborder="1" allowTransparency="true">		
 			</iframe>
 </div>
+
 </div> <!-- fermeture containerUne -->
 
 <script type="text/javascript" src="js/script.js"></script>
