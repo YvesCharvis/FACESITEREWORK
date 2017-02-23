@@ -78,6 +78,22 @@
             </div>
           </div>
         </div>
+        <div class="item">
+          <img class="tenth-slide" src="img/pacman.png" alt="tenth-slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h3>PACMAN en post-it</h3>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="eleventh-slide" src="img/formationemploi.png" alt="eleventh-slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h3>Formation emploi YzeureEspace</h3>
+            </div>
+          </div>
+        </div>
       </div>
 
        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
