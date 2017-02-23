@@ -7,7 +7,7 @@
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img class="first-slide" src="img/lafabrik.png" alt="First slide">
+          <img class="img-responsive" src="img/lafabrik.png" alt="First slide" class="img-responsive">
           <div class="container">
             <div class="carousel-caption">
               <h3>Salle de travaille de la Fabrik</h3>
@@ -15,7 +15,7 @@
           </div>
         </div>
         <div class="item">
-          <img class="second-slide" src="img/amphi.png" alt="Second slide">
+          <img class="second-slide" src="img/amphi.png" alt="Second slide" class="img-responsive">
           <div class="container">
             <div class="carousel-caption">
               <h3>La Fabrik à l'amphitheatre</h3>
@@ -23,7 +23,7 @@
           </div>
         </div>
         <div class="item">
-          <img class="third-slide" src="img/coursjulien.png" alt="Third slide">
+          <img class="third-slide" src="img/coursjulien.png" alt="Third slide" class="img-responsive">
           <div class="container">
             <div class="carousel-caption">
               <h3>En pleine apprentissage avec leurs formateur Julien</h3>
@@ -31,7 +31,7 @@
           </div>
         </div>
         <div class="item">
-          <img class="fourth-slide" src="img/recrutement.jpg" alt="fourth-slide">
+          <img class="fourth-slide" src="img/recrutement.jpg" alt="fourth-slide" class="img-responsive">
           <div class="container">
             <div class="carousel-caption">
               <h3>Session de recrutement école du Numérique</h3>
@@ -39,7 +39,7 @@
           </div>
         </div>
         <div class="item">
-          <img class="fifth-slide" src="img/espe.png" alt="fifth-slide">
+          <img class="fifth-slide" src="img/espe.png" alt="fifth-slide" class="img-responsive">
           <div class="container">
             <div class="carousel-caption">
               <h3>Lieu de travail de l'école du Numérique</h3>
@@ -47,7 +47,7 @@
           </div>
         </div>
         <div class="item">
-          <img class="sixth-slide" src="img/salleespe.png" alt="sixth-slide">
+          <img class="sixth-slide" src="img/salleespe.png" alt="sixth-slide" class="img-responsive">
           <div class="container">
             <div class="carousel-caption">
               <h3>Salle ou étudie l'école du Numérique</h3>
@@ -55,7 +55,7 @@
           </div>
         </div>
         <div class="item">
-          <img class="seve-slide" src="img/facereu.png" alt="seve-slide">
+          <img class="seve-slide" src="img/facereu.png" alt="seve-slide" class="img-responsive">
           <div class="container">
             <div class="carousel-caption">
               <h3>Reunion Face Bourbonnais</h3>
@@ -63,7 +63,7 @@
           </div>
         </div>
         <div class="item">
-          <img class="heigth-slide" src="img/lequipe.png" alt="heigth-slide">
+          <img class="heigth-slide" src="img/lequipe.png" alt="heigth-slide" class="img-responsive">
           <div class="container">
             <div class="carousel-caption">
               <h3>L'équipe de l'école du Numérique</h3>
@@ -71,7 +71,7 @@
           </div>
         </div>
         <div class="item">
-          <img class="ninth-slide" src="img/ouvertureespe.png" alt="ninth-slide">
+          <img class="ninth-slide" src="img/ouvertureespe.png" alt="ninth-slide" class="img-responsive">
           <div class="container">
             <div class="carousel-caption">
               <h3>Ouverture de Face Bourbonnais</h3>
@@ -79,7 +79,7 @@
           </div>
         </div>
         <div class="item">
-          <img class="tenth-slide" src="img/pacman.png" alt="tenth-slide">
+          <img class="tenth-slide" src="img/pacman.png" alt="tenth-slide" class="img-responsive">
           <div class="container">
             <div class="carousel-caption">
               <h3>PACMAN en post-it</h3>
@@ -87,7 +87,7 @@
           </div>
         </div>
         <div class="item">
-          <img class="eleventh-slide" src="img/formationemploi.png" alt="eleventh-slide">
+          <img class="eleventh-slide" src="img/formationemploi.png" alt="eleventh-slide" class="img-responsive">
           <div class="container">
             <div class="carousel-caption">
               <h3>Formation emploi YzeureEspace</h3>
