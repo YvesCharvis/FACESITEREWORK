@@ -107,13 +107,14 @@ width: 90%;
 #fb-root{
 	display: none;
 }
+.recommend{
+	display: block;
+}
 
 
 /*------------Nav Parametre DeskopVersion ------------ */
 @media (min-width: 992px) {				/* Version PC */
-	#nav{
-		background-color: #E9E9E9;	
-	}
+
 
 	.span4{
 		padding: 25px;
@@ -169,6 +170,9 @@ width: 90%;
 	#carrousel-id{
 		width: 100%;
 	}
+	.recommend{
+	display: none;
+}
 	
 }
 /* --------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -183,7 +187,11 @@ width: 90%;
 	border-bottom: 2px solid orange;
 	margin-bottom: 20px;
 	margin-top: 15px;
-		
+}
+#hamburger{						/* Div du future hamburger */
+	text-align: center;
+	background-color: #4D4A4A;
+	box-shadow: 2px 2px 5px 0px #656565;
 }
 
 #conteneur{
@@ -194,13 +202,17 @@ width: 90%;
 #fb-root{
 	background-color: #3B5999;
 	width: 20%;
+	box-shadow: 2px 2px 5px 0px #656565;
 	
 }
 .pagefb{
 	width: 95%;
+	margin-left: 8px;
 	
 }
-
+#containerDeux{
+	width: 50%;
+}
 /* --------------------------------------------------------------------------------------------------------------------------------------------------*/
 /* ----------------------------------------------------------- CSSLA UNE ----------------------------------------------------------------------------*/
 /* --------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -214,11 +226,142 @@ padding: 0px;
 border: solid 0.01em #E9E9E9;
 }
 
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* ----------------------------------------------------------- PLUS ENCORE ----------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.panel, .panel-default{
+	padding: 1%;
+}
+
 
 /* --------------------------------------------------------------------------------------------------------------------------------------------------*/
-/* ----------------------------------------------------------- FOOTER ----------------------------------------------------------------------------*/
+/* ----------------------------------------------------------- PAGE GALERIE FORME ----------------------------------------------------------------------------*/
 /* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+#myCarousel{
+	margin-top: 20px;
+}
 
+.glyphicon-chevron-left{
+	color: black;
+}
+
+.glyphicon-chevron-right{
+	color: black;
+}
+
+h3{
+	background-color: #122136;
+	color: white;
+	box-shadow: 2px 2px 5px 0px black;
+	margin-bottom: -40px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------FABRIKSTYLES---------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+#global{
+	border-bottom: solid 5px orange;
+}
+#space{
+	height: 25px;
+}
+#space3{
+	height: 25px;
+	background-color: white;
+}
+#titrepage{
+	height: 100px;
+	background-color: white;
+	text-align: left;
+	
+}
+.letterpress{
+	font-size: 70px;         /* taille de la police */
+   color: white;          /* Couleur de la police */
+   text-decoration: none;       /* Enlèvement du soulignement sur les liens */
+   text-shadow: 0 -2px 0 #222222;
+   text-align: center;
+   font-family: 'Pacifico', cursive;
+}
+#presentation{
+	background-color: #1693A5;
+	padding: 30px;
+}
+article{
+	background-color: #FBFBFB ;
+	color: black;
+	width: 1000px;
+   height: 200px;
+   position: relative;
+   -moz-border-radius:    10px;
+   -webkit-border-radius: 10px;
+   border-radius:         10px;
+   padding: 10px;
+   -webkit-box-shadow: -1px -1px 25px 0px rgba(0,0,0,0.75);
+   -moz-box-shadow: -1px -1px 25px 0px rgba(0,0,0,0.75);
+	box-shadow: -1px -1px 25px 0px rgba(0,0,0,0.75);
+	margin: 10px;
+	display: flex;
+}
+article:before {
+   content:"";
+   position: absolute;
+   right: 100%;
+   top: 26px;
+   width: 0;
+   height: 0;
+   border-top: 13px solid transparent;
+   border-right: 26px solid #FBFBFB;
+   border-bottom: 13px solid transparent;
+}
+#space2{
+	height: 40px;
+}
+.col-xs-5{
+	padding: 0;
+	margin: 0;
+}
+#photofab img {
+	width: 350px;
+	height: 350px;
+}
+
+.btn-facebook {
+	  background: #3B5998;
+	  border-radius: 0;
+	  color: #fff;
+	  border-width: 1px;
+	  border-style: solid;
+	  border-color: #263961; 
+	  font-family: 'Pacifico', cursive;
+	}
+	.btn-facebook:link, .btn-facebook:visited {
+	  color: #fff;
+	}
+	.btn-facebook:active, .btn-facebook:hover {
+	  background: #263961;
+	  color: #fff;
+	}
+	#facebook{
+		background-color: #263961;
+		height: 551px;
+		text-align: center;
+		margin: 40px auto;
+	}
+	#fb{
+		height: 470px;
+	}
+	#plan{
+		padding: 43px;
+	}
+	#plan iframe{
+		width: 100%
+	}
+	#flex{
+		display: flex;
+		justify-content: center;
+	}
 /* --------------------------------------------------------------------------------------------------------------------------------------------------*/
 /* ----------------------------------------------------------- CARROUSEL ----------------------------------------------------------------------------*/
 /* --------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -257,20 +400,16 @@ text-align: left;
   width: calc(100% - ($button-spacing * 2));
 }
 
-#total{
-  padding-left: 40px;
-}
-
 /* fin du gros bordel */
 
 /* Alors tout ça, faut pas chercher à comprendre c'est justes les fleches pour le caroussel */
 
-.glyphicon-circle-arrow-right{
-  color: black;
+.glyphicon-chevron-right{
+	color: black;
 }
 
-.glyphicon-circle-arrow-left{
-  color:black;
+.glyphicon-chevron-left{
+	color:black;
 }
 
 .carousel[data-shift="1"] .carousel-inner > .item {
@@ -279,8 +418,8 @@ text-align: left;
 }
 
 .carousel .carousel-inner > .item.row{ 
-  margin: 0; 
-  padding-left: 10px;
+	margin: 0; 
+	padding-left: 10px;
 }
 
 .carousel .carousel-control {
@@ -315,9 +454,9 @@ text-align: left;
   width: 100%;
 }
 .carousel .carousel-control.left{ 
-  left: -40px; top: 50px; 
+  left: -40px; top: 30px; 
 }
 
 .carousel .carousel-control.right{ 
-  right: -40px; top: 50px; 
+  right: -40px; top: 30px; 
 }
