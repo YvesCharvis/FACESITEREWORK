@@ -10,13 +10,17 @@
 			<div class="les-articles">
 				<img src="img/une1.png" alt="" class="articleimg1 col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-0">
 				<div class="row">
-					<img class="articleimg2 col-xs-10 col-md-3" src="img/une3.png" width="500px" alt="">
-					<img class="articleimg3 col-xs-10 col-md-3" src="img/une3.png" width="500px" alt="">
-					<img class="articleimg4 col-xs-10 col-md-3" src="img/une3.png" width="500px" alt=""> 
-					<img class="articleimg5 col-xs-10 col-md-3" src="img/une3.png" width="500px" alt="">
+					<img class="articleimg2 col-xs-10 col-md-3" src="img/une3.png" width="500px" alt="" onclick="afficherArticle('Art1')"/>
+					<img class="articleimg3 col-xs-10 col-md-3" src="img/une3.png" width="500px" alt="" onclick="afficherArticle('Art2')"/>
+					<img class="articleimg4 col-xs-10 col-md-3" src="img/une3.png" width="500px" alt="" onclick="afficherArticle('Art3')"/> 
+					<img class="articleimg5 col-xs-10 col-md-3" src="img/une3.png" width="500px" alt="" onclick="afficherArticle('Art4')"/>
 				</div>  
 			</div>	
 		</div>
+		<div class="cache" id="Art1">article1</div>
+		<div class="cache" id="Art2">article2</div>
+		<div class="cache" id="Art3">article3</div>
+		<div class="cache" id="Art4">article4</div>
 	</div>
 	<!-- /////////////////////////////////Partie Social FB \\\\\\\\\\\\\\\\-->
 <div id="fb-root" class="col-md-4" >

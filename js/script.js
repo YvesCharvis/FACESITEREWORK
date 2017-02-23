@@ -76,3 +76,18 @@ carousels.each(function() {
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
+
+
+///////////////////////Affichage article ///////////////////////////////////////
+function afficherArticle(loc){
+  $(".Afficher").removeClass("Afficher");
+  $('#'+loc).addClass("Afficher");
+}
+
+////////////////////////////afficher masquer//////////////////////////////////////
+ function AfficherOnclick(loc){
+  $( "#"+loc ).toggle(function() {  
+  $('#'+loc).addClass("Afficher");
+});
+
+}
