@@ -519,3 +519,103 @@ text-align: left;
 .carousel .carousel-control.right{ 
   right: -40px; top: 30px; 
 }
+
+/* CONTACT */
+
+#president{
+	
+	border-radius: 30%;  
+    width: 300px;
+	height: 300px;
+	margin-top: 10px;
+	
+}
+
+#face {
+	border-radius: 30%;  
+    margin-top: 5%;
+  
+}
+
+
+#eric {
+	border-radius: 30%;  
+    width: 300px;
+	height: 300px;
+	margin-top: 10px;
+}
+	
+
+	
+#christine{
+	border-radius: 30%; 
+    width: 300px;
+	height: 300px;
+	margin-top: 10px;
+	
+}
+
+
+#xavier {
+
+	border-radius: 30%;  
+    width: 300px;
+	height: 300px;
+	margin-top: 10px;
+
+}
+
+#premier{
+	flex:right;
+
+}
+
+#bourb{
+	text-align: center;
+}
+
+#deux{
+	flex: left;
+}
+
+#trois{
+	flex: right;
+}
+
+#quatre {
+	flex: left;
+}
+
+
+article {
+
+ 	font-family:cursive;
+ 	font-size: 30px ;
+}
+
+.link{
+     color:#ccc;
+     text-shadow:0 -1px 0 black;                
+}
+.linkS:hover,.link:focus{
+     background:rgba(0,0,0,.4);
+     box-shadow:0 1px 0 rgba(255,255,255,.4);
+}
+
+.link span{
+     position:absolute; 
+     margin-top:23px;
+     margin-left:30px;
+     color:#09c;
+     background:rgba(0,0,0,.9);
+     padding:15px;
+     border-radius:3px;
+     box-shadow:0 0 2px rgba(0,0,0,.5);  
+     transform:scale(0) rotate(-12deg);
+     transition:all .25s;
+             
+}
+
+.link:hover span, .link:focus span{
+     transform:scale(1) rotate(0);        
+}
