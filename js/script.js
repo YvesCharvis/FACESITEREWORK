@@ -6,6 +6,37 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
 
+
+///////////////////////////////////////Annnimation article\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+$('#articleimg2').hover(function(){
+    $(this).fadeTo('slow', 1);
+  },function(){
+    $(this).fadeTo('slow', 0.85);
+});
+$('#articleimg3').hover(function(){
+    $(this).fadeTo('slow', 1);
+  },function(){
+    $(this).fadeTo('slow', 0.85);
+});
+$('#articleimg4').hover(function(){
+    $(this).stop().fadeTo('slow', 1);
+  },function(){
+    $(this).stop().fadeTo('slow', 0.85);
+});
+$('#articleimg5').hover(function(){
+    $(this).stop().fadeTo('slow', 1);
+  },function(){
+    $(this).stop().fadeTo('slow', 0.85);
+});
+
+////////////////////////////////////////////SLIDE ARTICLE \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+$(document).ready(function(){
+    $("onclick").click(function(){
+        $("Art1").toggle("slow");
+    });
+});
+
 ////////////affichage d'un contenu différent par page////////
 
 var carousels = $('.carousel');
@@ -76,3 +107,17 @@ carousels.each(function() {
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
+
+
+  ///////////////////////////////////JAVA ARTICLE APPARITION \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+///////////////////////Affichage article ///////////////////////////////////////
+function afficherArticle(loc){
+  $(".Afficher").removeClass("Afficher");
+  $('#'+loc).addClass("Afficher");
+}
+
+////////////////////////////afficher masquer//////////////////////////////////////
+ function AfficherOnclick(loc){
+  $( "#"+loc ).toggle("slow");
+}
