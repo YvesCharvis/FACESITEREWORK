@@ -331,8 +331,8 @@ text-align: left;
 
 .Afficher {
 	display: inline;
-	overflow: wrap;
-	word-break: break-all;
+	
+
 	
 }
 
@@ -364,3 +364,32 @@ blockquote{
 }
 
 /*finstylepresentation*/
+
+/*style articles accueil*/
+
+
+.blanc{
+	background-color: white;
+	padding: 2em 2em 2em 2em;;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-bottom: 10px;
+
+}
+.gap-right {
+    margin-right: 20px; 
+    overflow: wrap;
+    width: 400px;
+}
+figcaption{
+	text-transform: bold;
+	font-weight: bold;
+}
+
+
+
+.indent {
+    text-indent: 20px;
+}
+
+/* fin style articles accueil*/

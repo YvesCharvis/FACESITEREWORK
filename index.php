@@ -17,7 +17,7 @@
 				</div>  
 			</div>	
 		</div>
-		<div class="cache" id="Art1">article1</div>
+		<div class="cache" id="Art1"><?php include 'article1.html' ?></div>
 		<div class="cache" id="Art2">article2</div>
 		<div class="cache" id="Art3">article3</div>
 		<div class="cache" id="Art4">article4</div>

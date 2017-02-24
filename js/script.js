@@ -86,8 +86,12 @@ function afficherArticle(loc){
 
 ////////////////////////////afficher masquer//////////////////////////////////////
  function AfficherOnclick(loc){
-  $( "#"+loc ).toggle(function() {  
-  $('#'+loc).addClass("Afficher");
-});
-
+  $( "#"+loc ).toggle("slow");
 }
+
+//  function AfficherOnclick(loc){
+//   $( "#"+loc ).toggle(function() {  
+//   $('#'+loc).addClass("Afficher");
+// });
+
+// }

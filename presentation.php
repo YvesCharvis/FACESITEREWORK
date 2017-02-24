@@ -1,10 +1,10 @@
 <?php include 'header.html' ?>
 	<main>
-		<div class='container'>
+		
 	<!-- 	citation mestrallet -->
 		        <div class="row">
 		                <div class="col-md-10 col col-md-offset-1">
-		                        <h1><span>Pr</span>ésentation</h1>
+		                        <h1><span>P</span>résentation</h1>
 		                        <blockquote>  « Sans se substituer à la puissance publique, ni aux associations, la capacité des entreprises à accompagner l’accès à l’emploi, à la formation, aux biens et services essentiels, aux droits…   constitue un formidable levier d’insertion, d’inclusion et d’intégration. »
 		                            <small class="pull-right">Gérard Mestrallet, Président de la Fondation FACE</small> 
 		                        </blockquote>
@@ -86,7 +86,7 @@ CIVIGAZ est mis en œuvre dans le cadre du grand programme gouvernemental de Ser
 
 
 
-			    </div>
+			   
 
 		        
 
