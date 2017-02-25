@@ -47,15 +47,12 @@
 			        </div>
 			        <div id="fabrique" class="cache">
 			        <div class="col-md-10 col col-md-offset-1 text-justify">
-			        	La précarité énergétique touche aujourd’hui en France environ 4 millions de ménages.
-
-GRDF et la Fondation FACE se sont associés pour créer CIVIGAZ, un programme ambitieux de lutte contre la précarité énergétique et de sensibilisation à la sécurité gaz dans les logements. Car s’il est difficile de payer ses factures énergétiques pour de nombreuses familles, il est souvent tout aussi compliqué d’entretenir convenablement ses équipements gaz.
-
-Pendant deux ans et demi, sur l’ensemble du territoire français, 660 volontaires en service civique vont aller à la rencontre des habitants directement chez eux ou à travers des animations collectives. Leur mission, d’une durée de 7 mois, consiste à sensibiliser les ménages modestes sur les différentes façons d’économiser l’énergie, la prévention des fuites de gaz, la qualité de l’air intérieur et, enfin, à les orienter, si besoin, vers des acteurs du territoire suivant les problématiques rencontrées.
-
-CIVIGAZ a l’ambition de sensibiliser 100 000 foyers en situation de précarité énergétique en travaillant avec les collectivités et les bailleurs sociaux
-
-CIVIGAZ est mis en œuvre dans le cadre du grand programme gouvernemental de Service Civique pour la Transition Energétique, le Climat et la Biodiversité initié en février 2015 par Le Ministère de l’Ecologie, du Développement Durable et de l’Energie, le Ministère de la Ville, de la Jeunesse et des Sports, l’Agence du Service Civique, l’association Unis-Cité et la Fondation FACE.
+		       	Cette formation de 8 mois a pour but de former au métier de développeur web. Sans prérequis, la fabrique du numérique est gratuite et sans limite d'âge. Elle accueille depuis novembre 2016 23 apprennants aux profils variés. Encadrés Julien Dugrais, autodidacte en informatique, ces étudiants aborderont un panel de languages suffisament vaste pour coder en autonomie un site web.
+			        	     <blockquote>  « Ma mission consite non seulement à transmettre mes connaissance en informatique mais aussi et surtout à développer l'autonomie des apprenants. Dans un domaine en constante évolution aprendre à apprendre est primordial»
+		                            <small class="pull-right">Julien Dugrais, formateur à la fabrique du numérique</small> 
+		                     </blockquote>
+		       	Les compétences visées sont notamment axées sur le html, le css, le javascript et le php. Les étudiants seront également sensibilisés au référencement, à l'expérience utilisateur et à l'importance de la communication professionnelle via les réseaux sociaux.
+		                Pour plus d'informations sur la fabrique consultez la page de<a href ="fabrik.php"> la fabrique du numérique</a>, pour découvrir le profil des apprennants voir<a href ="Contactfab.php"> la page contact</a> .
 			        
 			       
 			        </div>

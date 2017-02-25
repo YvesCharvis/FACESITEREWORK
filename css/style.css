@@ -71,9 +71,9 @@ width: 90%;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-nav ul{						/*Liste du nav */
+#nav ul{						/*Liste du nav */
 	list-style: none;					
-	background-color: #4D4A4A;
+	background-color:#24888F;
 	padding: 0;
 	margin: 0;
 	font-family: 'geo';
@@ -86,7 +86,7 @@ nav ul{						/*Liste du nav */
 	
 }
 #nav ul li:hover, li:active{				/* Eléments au passage de la souris */	
-	background-color: #24888F;
+	background-color:  #4D4A4A;
 }	
 #nav ul li a{						/* Liens dans l'élément */
 	text-decoration: none;
@@ -96,12 +96,8 @@ nav ul{						/*Liste du nav */
 	color: white;
 	text-decoration: none;
 }
-#focusLI{						/* Elément de la page active */
-	background-color: #24888F;	
-}
-#focusLI a{						/* Lien de la page active */
-	color: white;
-}
+
+
 #carrousel-id{
 		width: 100%;
 	}
@@ -124,7 +120,7 @@ nav ul{						/*Liste du nav */
 @media (min-width: 992px) {				/* Version PC */
 
 
-	.span4{
+.span4{
 		padding: 25px;
 	}
 
@@ -181,7 +177,8 @@ nav ul{						/*Liste du nav */
 	}
 	.recommend{
 	display: none;
-}
+	}
+	
 	
 }
 /* --------------------------------------------------------------------------------------------------------------------------------------------------*/
