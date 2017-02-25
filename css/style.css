@@ -15,6 +15,9 @@
 /* --------------------------------------------------------------------------------------------------------------------------------------------------*/
 /* ----------------------------------------------------------- GLOBALE CSS --------------------------------------------------------------------------*/
 /* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+html{
+	font-family: 'Pacifico', cursive;
+}
 body{
 	background-color: #E9E9E9;
 	overflow-x: hidden;
@@ -65,18 +68,22 @@ width: 90%;
 #nav {							/*Le nav global */
 	box-shadow: 2px 2px 5px 0px #656565;
 	background-image:url("../img/banniere.png");
+	background-size: cover;
+	background-repeat: no-repeat;
 }
-#nav ul{						/*Liste du nav */
+nav ul{						/*Liste du nav */
 	list-style: none;					
 	background-color: #4D4A4A;
 	padding: 0;
 	margin: 0;
 	font-family: 'geo';
+	
 }
 #nav ul li{						/* Eléments de la liste */
 	font-size: 1.5em;
 	padding: 7px;
 	text-align: right;
+	
 }
 #nav ul li:hover, li:active{				/* Eléments au passage de la souris */	
 	background-color: #24888F;
@@ -197,7 +204,7 @@ width: 90%;
 }
 
 #conteneur{
-	background-color: #24888F;
+	/*background-color: #24888F;*/
 	margin-right: 35px;
 }
 #fb-root{
@@ -226,40 +233,13 @@ width: 90%;
 padding: 0px;
 border: solid 0.01em #E9E9E9;
 }
-/*CSS Présentation*/
-blockquote{
-	border-color: #EC9566;
-	min-height: 40px;
-    margin-bottom: 5px;
-    padding: 5px 13px;
-    border-radius: 8px;
-    background-color: white;
-    font-style: italic;
-    text-shadow: 0 1px 0 #ffffde;
-	color: #8e7c70;
-}
-
-
-#styleH2{
-	background-color: #1693A5;
-  	text-align: center;
-  	margin-bottom: 10px;
-  	color:white;
-  	font-size: 23px;
-  	font-family: 'Pacifico', cursive;  
-  	box-shadow: 2px 2px 5px 0px #656565;
-  	line-height: 30px;
-
-}
-
-/*finstylepresentation*/
 
 /*style articles accueil*/
 
 
 .blanc{
 	background-color: white;
-	padding: 2em 2em 2em 2em;
+	padding: 2em 2em 2em 2em;;
     text-align: justify;
     text-justify: inter-word;
     margin-bottom: 10px;
@@ -316,6 +296,8 @@ h3{
 	margin-bottom: -40px;
 }
 
+
+
 /*---------------------------------------------------------------------------------------------------------------------------------*/
 /*-------------------------------------------------------------FABRIKSTYLES---------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------------------------------------------------*/
@@ -347,7 +329,7 @@ h3{
 	background-color: #1693A5;
 	padding: 30px;
 }
-/* article{
+ .will{
 	background-color: #FBFBFB ;
 	color: black;
 	width: 1000px;
@@ -363,7 +345,7 @@ h3{
 	margin: 10px;
 	display: flex;
 }
-article:before {
+.will:before {
    content:"";
    position: absolute;
    right: 100%;
@@ -373,7 +355,7 @@ article:before {
    border-top: 13px solid transparent;
    border-right: 26px solid #FBFBFB;
    border-bottom: 13px solid transparent;
-} */
+} 
 #space2{
 	height: 40px;
 }
@@ -519,3 +501,95 @@ text-align: left;
 .carousel .carousel-control.right{ 
   right: -40px; top: 30px; 
 }
+
+
+
+/*Classes necessaires aux fonctions afficher article et onclick ne pas inverser leur ordre*/
+
+.cache{
+	display: none;
+	
+}
+
+.Afficher {
+	display: inline;
+	
+
+	
+}
+
+
+/*CSS Présentation*/
+blockquote{
+	border-color: #EC9566;
+	min-height: 40px;
+    margin-bottom: 5px;
+    padding: 5px 13px;
+    border-radius: 8px;
+    background-color: white;
+    font-style: italic;
+    text-shadow: 0 1px 0 #ffffde;
+	color: #8e7c70;
+}
+
+
+#styleH2{
+	background-color: #1693A5;
+  	text-align: center;
+  	margin-bottom: 10px;
+  	color:white;
+  	font-size: 23px;
+  	font-family: 'Pacifico', cursive;  
+  	box-shadow: 2px 2px 5px 0px #656565;
+  	line-height: 30px;
+
+}
+
+#symbolederoule{
+	float: left;
+	color: white;
+}
+
+.margPadd
+{
+	padding-left:10px;
+}
+
+/*finstylepresentation*/
+/*
+------------------------------------------------Page contact fabrique---------------------------------------------------*/
+
+
+
+
+
+
+.apprennants{
+	border-radius: 25%;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+}
+
+.infobulle:hover,.infobulle:focus{
+     box-shadow:0 1px 0 rgba(255,255,255,.4);
+}
+.infobulle .name{
+	position: absolute;
+    color:#09c;
+     background:rgba(0,0,0,.9);
+     border-radius:3px;
+     box-shadow:0 0 2px rgba(0,0,0,.5);
+     transform:scale(0) rotate(-12deg);
+     transition:all .25s;
+     opacity:0;
+}
+.infobulle:hover .name, .infobulle:focus .name{
+     transform:scale(1) rotate(0);  
+     opacity:1;      
+}
+
+
+
+
+/*----------------------------------------------------fin pagecontactfabrique------------------------------------------------*/

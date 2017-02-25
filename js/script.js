@@ -29,14 +29,6 @@ $('#articleimg5').hover(function(){
     $(this).stop().fadeTo('slow', 0.85);
 });
 
-////////////////////////////////////////////SLIDE ARTICLE \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-
-$(document).ready(function(){
-    $("onclick").click(function(){
-        $("Art1").toggle("slow");
-    });
-});
-
 ////////////affichage d'un contenu différent par page////////
 
 var carousels = $('.carousel');
