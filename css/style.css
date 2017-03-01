@@ -416,6 +416,25 @@ line-height: 20px;
 
 
 /*CSS Présentation*/
+.col-md-12
+{
+	padding: 0px;
+	margin:0px;
+
+}
+
+.styleH2{
+	background-color: #1693A5;
+  	text-align: center;
+  	margin-bottom: 50px;
+  	color:white;
+  	font-size: 23px;
+  	font-family: 'Pacifico', cursive;  
+  	/*box-shadow: 2px 2px 5px 0px #656565;*/
+  	line-height: 40px;
+ 
+}
+
 blockquote{
 	border-color: #EC9566;
 	min-height: 40px;
@@ -429,22 +448,33 @@ blockquote{
 	color: #8e7c70;
 }
 
-
-.styleH2{
+.ligneorange2{
+	background-color: #065847;
+	height: 5px;
+}
+.ligneorange{
 	background-color: #1693A5;
-  	text-align: center;
-  	margin-bottom: 10px;
-  	color:white;
-  	font-size: 23px;
-  	font-family: 'Pacifico', cursive;  
-  	box-shadow: 2px 2px 5px 0px #656565;
-  	line-height: 30px;
-  	margin-bottom : 40px;
-
+	height: 5px;
 }
 
-.lineheight
+.styleH2:hover div{
+	/*border-bottom:8px solid #EC9566;*/
+	text-decoration: none;
+	background-color: #EC9566;
+	
+	
+}
+
+
+a:hover
 {
+	text-decoration: none;
+}
+
+
+.lineheight
+{	padding:0px;
+	margin: 0px;
 	line-height: 30px;
 	font-family: arial;
 	font-size: 125%;
@@ -453,6 +483,7 @@ blockquote{
 #symbolederoule{
 	float: left;
 	color: white;
+	padding-left:20px;
 }
 
 .margPadd
@@ -472,8 +503,29 @@ blockquote{
 
 .adobecc{
 
-	background-color: #065847 ;
+	background-color: #065847;
 }
+
+
+.centree
+{
+	margin: 0 auto;
+	margin-bottom: 60px;	
+}
+
+#titrePrincipal
+{
+	line-height: 50px;
+	background-color: #16A587;
+	box-shadow: 2px 2px 5px 0px #656565;	
+	text-align: center;
+  	margin-bottom: 50px;
+  	color:white;
+  	font-size: 23px;
+  	font-family: 'Pacifico', cursive;  
+
+}
+
 
 /*finstylepresentation*/
 /*
@@ -514,7 +566,7 @@ blockquote{
 
 /*----------------------------------------------------fin pagecontactfabrique------------------------------------------------*/
 /*Debut page fabrique*/
-#global{
+.global{
 	border-bottom: solid 5px orange;
 }
 

@@ -3,11 +3,15 @@
 		
 	<!-- 	citation mestrallet -->
 		        <div class="row">
-		                <div class="col-md-10 col-md-offset-1">
-		                        <h1><span>P</span>résentation</h1>
+		                <div class="col-md-12">
+		                        <h1 id="titrePrincipal">Présentation</h1>
 		                        <blockquote class="article">  « Sans se substituer à la puissance publique, ni aux associations, la capacité des entreprises à accompagner l’accès à l’emploi, à la formation, aux biens et services essentiels, aux droits…   constitue un formidable levier d’insertion, d’inclusion et d’intégration. »
-		                            <small class="pull-right">Gérard Mestrallet, Président de la Fondation FACE</small> 
+		                            <small class="pull-right">Gérard Mestrallet, Président de la Fondation FACE		</small> 
 		                        </blockquote>
+		                        <article class="article">
+		                        Reconnue d'utilité publique, face lutte contre toute les formes d'exculsion et contre la pauvreté. Forte de ses valeurs de solidarité et d'égalité FACE oeuvre à développer la responsabilité sociétale des entreprises (RSE).
+		                        </article>
+		                        <img class="img-responsive centree visible-md-block visible-lg-block" src="img/presentation/rse.PNG">
 
 
 		                </div> 
@@ -16,12 +20,12 @@
 		        Onglets -->
 		      <!--   Histoire -->
 		        <div class="row">
-		                <a href="javascript:;" onclick="AfficherOnclick('histoire')"> <h2 class="col-md-10 col col-md-offset-1 text-center styleH2"><span id="symbolederoule">≡</span> Histoire</h2></a>
+		                <a href="javascript:;" onclick="AfficherOnclick('histoire')"> <h2 class="col-md-12 text-center styleH2"><span id="symbolederoule">≡</span> Histoire <div class="ligneorange"></div></h2></a>
 		        </div> 
 		        <div id="histoire">
 			        <div class="row">
 		<!-- <div class="col-xs-0 col-sm-0 col-md-1 col-lg-1"></div> -->
-			                <div class="col-md-10 col-md-offset-1">
+			                <div class="col-md-12">
 			           
 			                        <article class="article">Depuis 2015, la Fondation Agir contre l'Exclusion (FACE) possède un club dans l'Allier. Sous la direction de Didier Luminet, ce club regroupe une trentaine d'entreprises bourbonnaises.
 			                        </article>
@@ -37,13 +41,13 @@
 
 			    		      <!--   Actions -->
 		        <div class="row">
-		                <a href="javascript:;" onclick="AfficherOnclick('actions')"> <h2  class="col-md-10 col-md-offset-1 text-center styleH2"><span id="symbolederoule">≡</span>Actions</h2></a>
+		                <a href="javascript:;" onclick="AfficherOnclick('actions')"> <h2  class="col-md-12 text-center styleH2"><span id="symbolederoule">≡</span>Actions<div class="ligneorange"></div></h2></a>
 		        </div> 
 		        <div id="actions">
 
 		     <!--    Action/fabrique -->
 			        <div class="row">
-			                <a href="javascript:;" onclick="AfficherOnclick('fabrique')"> <h2 class="adobecccolor col-xs-8 col col-xs-offset-2 col-sm-6 col-sm-offset-3 col-md-6 col col-md-offset-3 col-lg-6 col col-lg-offset-3 text-center styleH2"><span id="symbolederoule" class="margPadd">≡</span>La fabrique</h2></a>
+			                <a href="javascript:;" onclick="AfficherOnclick('fabrique')"> <h2 class="adobecccolor col-md-10 col-md-offset-1 text-center styleH2"><span id="symbolederoule" class="margPadd">≡</span>La fabrique<div class="ligneorange"></div></h2></a>
 			        </div>
 			        <div id="fabrique" class="cache">
 			        <div class="col-md-10 col-md-offset-1 text-justify article">
@@ -58,12 +62,12 @@
 			       
 			        </div>
 			        <div class="row  visible-xs-block">
-				         <a href ="fabrik.php"> <h2 class="adobecc col-md-12 styleH2">En savoir +</h2></a>
-				         <a href ="Contactfab.php"> <h2 class="adobecc col-md-12 styleH2">Contact/profils</h2></a>
+				         <a href ="fabrik.php"> <h2 class="adobecc col-xs-8 col-xs-offset-2 styleH2">En savoir +<div class="ligneorange2"></div></h2></a>
+				         <a href ="Contactfab.php"> <h2 class="adobecc col-xs-8 col-xs-offset-2 styleH2">Contact/profils<div class="ligneorange2"></div></h2></a>
 			        </div>
 			         <div class="row  visible-md-block visible-lg-block visible-sm-block">
-				         <a href ="fabrik.php"> <h2 class="adobecc col-md-3 pull-left col-md-offset-1 styleH2">En savoir +</h2></a>
-				         <a href ="Contactfab.php"> <h2 class="adobecc col-md-3 col-md-offset-4 styleH2">Contact/profils</h2></a>
+				         <a href ="fabrik.php"> <h2 class="adobecc col-md-3 pull-left col-md-offset-1 styleH2">En savoir +<div class="ligneorange2"></div></h2></a>
+				         <a href ="Contactfab.php"> <h2 class="adobecc col-md-3 col-md-offset-4 styleH2">Contact/profils<div class="ligneorange2"></div></h2></a>
 			        </div>
 			        </div>
 			        </div>
@@ -71,7 +75,7 @@
 
 			        	     <!--    Action/fabrique -->
 			        <div class="row">
-			                <a href="javascript:;" onclick="AfficherOnclick('civigaz')"> <h2 class="adobecccolor col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3 col-md-6 col col-md-offset-3 col-lg-6 col col-lg-offset-3 text-center styleH2"><span id="symbolederoule" class="margPadd">≡</span>CIVIGAZ</h2></a>
+			                <a href="javascript:;" onclick="AfficherOnclick('civigaz')"> <h2 class="adobecccolor col-md-10 col-md-offset-1 text-center styleH2"><span id="symbolederoule" class="margPadd">≡</span>CIVIGAZ<div class="ligneorange"></div></h2></a>
 			        </div>
 			        <div id="civigaz" class="cache">
 			        	<div class="col-md-10 col-md-offset-1 text-justify article">
@@ -87,7 +91,7 @@ CIVIGAZ est mis en œuvre dans le cadre du grand programme gouvernemental de Ser
 			        
 			        	</div>
 
-			      <a href ="http://www.fondationface.org/activites-2/nos-grands-projets/civigaz"> <h2 class="adobecc col-md-3 pull-left col-md-offset-1 styleH2">En savoir +</h2></a>
+			      <a href ="http://www.fondationface.org/activites-2/nos-grands-projets/civigaz"> <h2 class="adobecc col-xs-8 col-xs-offset-2 styleH2">En savoir +<div class="ligneorange2"></div></h2></a>
 			        </div>
 	</div>
 

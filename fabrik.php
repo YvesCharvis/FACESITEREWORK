@@ -3,7 +3,7 @@
 	<div class="row">
 
 			<div id="titrepage" class="col-xs-12 col-sm-12  col-md-10 col-md-offset-1 col-lg-10 col col-lg-offset-1">
-				<h1 id="global"><span>L</span>a fabrique</h1>			
+				<h1 class="global">La fabrique</h1>			
 			</div>	
 	</div>
 
