@@ -1,4 +1,60 @@
 <?php  include "header.html" ?>
+	<article class="sophie row">
+    <div id="bourb">
+        <img id="face" src="img/contacts/contact.jpg" class="visible-md visible-lg"> 
+        <p>Contacter Face Territoire Bourbonnais</p>
+        <p>3 rue Berthelot, 03000 MOULINS</p>  
+        <p>Tél : 04 70 20 43 70</p>
+    </div>
+        
+        <div id="premier">
+            <div id ="president"></div> 
+         <!--    <img id ="president" src="img/contacts/president.jpg">  -->
+            <a class="link" href="#"> Didier Luminet 
+            <span>
+                <p> Président, chef d'entreprise </p>
+                <p>Tel: 06.64.02.12.99</p>
+                <p>Mail: faceterritoirebourbonnais@gmail.com</p>
+            </span>
+            </a>
+        </div>
+        
+
+        <div id="deux">
+            <img  id = "eric" src="img/contacts/eric.jpg">
+            <a class="link" href="#"> Eric Getenay 
+            <span>
+                <p>Chargé des relations entreprises</p>
+                <p>Tél : 06 89 32 71 09</p>
+                <p>Mail : fab_numerique_allier@fondationface.org</p>
+            </span>
+            </a>
+        </div>
+    
+        <div id="trois">
+            <img id ="christine" src="img/contacts/christine.jpg">
+            <a class="link" href="#"> Christine Berger
+            <span>
+                <p>Administrative et Commerciale</p>
+                <p>Tel: 06 73 65 04 95</p>
+                <p>Mail: c.berger@fondationface.org</p>
+            </span>
+            </a>
+        </div>
+
+
+        <div id="quatre">
+            <img id="xavier" src="img/contacts/xavier.jpg">
+            <a class="link" href="#"> Xavier de Soultrait
+            <span>
+                <p>Face Territoire Bourbonnais</p>
+                <p>Tel: 06 75 81 23 40</p>
+                <p>Mail: xavier.desoultrait@gmail.com</p>
+            </span>
+            </a>
+        </div>
+
+</article>
 
 	<div id="Contact" class="row">
 		<h2 id="styleH2" class="col-sm-6 col-sm-offset-3 col-md-10 col-md-offset-1 col-lg-10 col col-lg-offset-1 text-center">Contact des apprennants de la fabrique</h2>

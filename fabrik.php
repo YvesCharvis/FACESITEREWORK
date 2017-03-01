@@ -48,11 +48,11 @@
 	</div>	
 
 	<div class="row">
-	<a href="#" title="Facebook" class="btn btn-facebook btn-lg block-center visible-sm visible-xs"><i class="fa fa-facebook fa-fw"></i>Suivez-nous sur facebook</a>
+	<a href="https://www.facebook.com/groups/675146529335057/?ref=bookmarks" title="Facebook" class="btn btn-facebook btn-lg block-center visible-sm visible-xs"><i class="fa fa-facebook fa-fw"></i>Suivez-nous sur facebook</a>
 
 			<div class="  col-md-10 col-md-offset-1 col-lg-10 col col-lg-offset-1 visible-lg visible-md">
 				<div id="facebook">
-					<a href="#" title="Facebook" class="btn btn-facebook btn-lg pull-left"><i class="fa fa-facebook fa-fw"></i>Facebook</a>				
+					<a href="https://www.facebook.com/groups/675146529335057/?ref=bookmarks" title="Facebook" class="btn btn-facebook btn-lg pull-left"><i class="fa fa-facebook fa-fw"></i>Facebook</a>				
 						<div id="flex">
 							<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="470" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 						</div>
@@ -61,28 +61,53 @@
 	
 	</div>	
 
-	<div class="row">
-
-	<div class="caroussel col-xs-12 col col-sm-12  col-md-10 col-md-offset-1 col-lg-10 col col-lg-offset-1 visible-md visible-lg visible-xs visible-sm">
-      	<div id="single" class="carousel slide" data-ride="carousel" data-shift="1">      		
-      		<div id = "photofab" class="carousel-inner" >
-        		<ul class="row item active list-unstyled" >
-          			<li id="kevin" class="col-xs-6 one"> <img src="img/kevin.png" class="img-responsive"> </li>
-      	    		<li id="martin" class="col-xs-6 one"> <img src="img/martin.png" class="img-responsive"></a> </li>
-        		</ul>
-        		<ul class="row item">
-          			<li id="code" class="col-xs-6 one"><img src="img/code.png" class="img-responsive"></li>
-          			<li id="epéro" class="col-xs-6 one"> <img src="img/epéro.png" class="img-responsive"> </li>
-        		</ul>
-        		<ul class="row item">
-          			<li id="pacman" class="col-xs-6 one"><img src="img/pacman.jpeg" class="img-responsive"> </li>
-          			<li id="serveur" class="col-xs-6 one"><img src="img/serveur.png" class="img-responsive"> </li>
-        		</ul>
-      		</div>
-      			<a class="carousel-control left" href="#single" data-slide="prev"></a> <a class="carousel-control right" href="#single" data-slide="next"></a>
-      	</div>
+<div class="row no-gutter">
+    
+        <ul id="galeriefab" class="col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+        <div class="row">
+             <li class=col-md-4>
+                  <a href="#">
+                  <img src="img/kevin.png" alt="" />
+                  <strong>Kévin</strong>
+                  </a>
+             </li>
+             <li class=col-md-4>
+                  <a href="#">
+                  <img src="img/martin.png" alt="" />
+                  <strong>Martin</strong>
+                  </a>
+             </li>
+            
+             <li class=col-md-4>
+                  <a href="#">
+                  <img src="img/code.png" alt="" />
+                  <strong>Kévin</strong>
+                  </a>
+             </li>
+            
+              </div>
+             <div class="row">
+             <li class=col-md-4>
+                  <a href="#">
+                  <img src="img/epéro.png" alt="" />
+                  <strong>Martin</strong>
+                  </a>
+             </li>
+             <li class=col-md-4>
+                  <a href="#">
+                  <img src="img/pacman.jpeg" alt="" />
+                  <strong>Kévin</strong>
+                  </a>
+             </li>
+             <li class=col-md-4>
+                  <a href="#">
+                  <img src="img/serveur.png" alt="" />
+                  <strong>Martin</strong>
+                  </a>
+             </li>         
+        </ul>
+        </div>
     </div>
-</div>
 
 
  <?php  include "footer.html" ?>
