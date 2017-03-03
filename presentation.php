@@ -70,7 +70,7 @@
 				         <a href ="Contactfab.php"> <h2 class="adobecc col-md-3 col-md-offset-4 styleH2">Contact/profils<div class="ligneorange2"></div></h2></a>
 			        </div>
 			        </div>
-			        </div>
+			        
 			       
 
 			        	     <!--    Action/fabrique -->
@@ -93,11 +93,41 @@ CIVIGAZ est mis en œuvre dans le cadre du grand programme gouvernemental de Ser
 
 			      <a href ="http://www.fondationface.org/activites-2/nos-grands-projets/civigaz"> <h2 class="adobecc col-xs-8 col-xs-offset-2 styleH2">En savoir +<div class="ligneorange2"></div></h2></a>
 			        </div>
-	</div>
 
+
+
+<!-- action caféd'en face -->
+
+ <div class="row">
+ 							<!-- a desktop -->
+			                <a href="javascript:;" onclick="AfficherOnclick('cafe')"> <h2 class="adobecccolor col-md-10 col-md-offset-1 text-center styleH2 visible-md visible-lg"><span id="symbolederoule" class="margPadd">≡</span>Les cafés d'en face<div class="ligneorange"></div></h2></a>
+			               <!-- a mobile -->
+
+			                <a href="javascript:;" onclick="AfficherOnclick('cafe')" class="adobecccolor col-md-10 col-md-offset-1 text-center styleH2 visible-sm visible-xs"><h2 class="row"><span class="col-sm-1">≡</span><div class="col-sm-11">Les cafés d'en face</div></h2><div class="ligneorange"></div></a>
+
+
+			        </div>
+			        <div id="cafe" class="cache">
+			        	<div class="col-md-10 col-md-offset-1 text-justify article">
+			        	La précarité énergétique touche aujourd’hui en France environ 4 millions de ménages.
+
+GRDF et la Fondation FACE se sont associés pour créer <a href="http://www.fondationface.org/activites-2/nos-grands-projets/civigaz/">CIVIGAZ</a>, un programme ambitieux de lutte contre la précarité énergétique et de sensibilisation à la sécurité gaz dans les logements. Car s’il est difficile de payer ses factures énergétiques pour de nombreuses familles, il est souvent tout aussi compliqué d’entretenir convenablement ses équipements gaz.
+
+Pendant deux ans et demi, sur l’ensemble du territoire français, 660 volontaires en service civique vont aller à la rencontre des habitants directement chez eux ou à travers des animations collectives. Leur mission, d’une durée de 7 mois, consiste à sensibiliser les ménages modestes sur les différentes façons d’économiser l’énergie, la prévention des fuites de gaz, la qualité de l’air intérieur et, enfin, à les orienter, si besoin, vers des acteurs du territoire suivant les problématiques rencontrées.
+
+CIVIGAZ a l’ambition de sensibiliser 100 000 foyers en situation de précarité énergétique en travaillant avec les collectivités et les bailleurs sociaux
+
+CIVIGAZ est mis en œuvre dans le cadre du grand programme gouvernemental de Service Civique pour la Transition Energétique, le Climat et la Biodiversité initié en février 2015 par Le Ministère de l’Ecologie, du Développement Durable et de l’Energie, le Ministère de la Ville, de la Jeunesse et des Sports, l’Agence du Service Civique, l’association Unis-Cité et la Fondation FACE.
+			        
+			        	</div>
+
+			      <a href ="http://www.fondationface.org/activites-2/nos-grands-projets/civigaz"> <h2 class="adobecc col-xs-8 col-xs-offset-2 styleH2">En savoir +<div class="ligneorange2"></div></h2></a>
+			        </div>
+
+	</div>
 		      
 
-
+</div>
 
 
 			   

@@ -35,7 +35,7 @@
 	<!--///////////////////////////////// Nav Accueil \\\\\\\\\\\\\\\\\\\\ -->
 <div id="nav" class="row">											
 	<nav>															<!-- Div pour le nav -->
-		<ul class="col-md-12">
+		<ul id="example" class="col-md-12">
 			<li id="focusLI"><a href="index.php">Accueil</a></li>
 			<li><a href="presentation.php">Présentation</a></li>
 			<li><a href="galerie.php">Galerie</a></li>
@@ -45,4 +45,20 @@
 		</ul>	
 	</nav>
 </div>
+
+<script type="text/javascript">
+		// listen for scroll
+		var positionElementInPage = $('#example').offset().top;
+		$(window).scroll(
+			function() {
+				if ($(window).scrollTop() >= positionElementInPage) {
+					// fixed
+					$('#example').addClass("floatable containerreset");
+				} else {
+					// relative
+					$('#example').removeClass("floatable");
+				}
+			}
+		);
+	</script>
 <span class="span4"></span>
